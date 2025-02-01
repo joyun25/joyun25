@@ -38,3 +38,19 @@ export type SocialType = {
   icon: Icon;
   idx: number;
 };
+
+export type AboutPageContent = {
+  idx: number;
+  title: string;
+  description: string;
+};
+
+export type AboutPageType = {
+  title: string;
+  description: string;
+  profileImageUrl: string;
+  profileImageDescription: string;
+  profileImageCaption: string;
+  date: string;
+  content: AboutPageContent[];
+};
